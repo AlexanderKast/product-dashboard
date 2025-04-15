@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evaluador de Productos</title>
+  <!-- Incluye Tailwind CSS desde CDN si ya lo usas -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-gray-50 p-4">
+    <body class="p-4 bg-gray-50">
+        <!-- Header con el logo -->
+        <header class="flex justify-center items-center mb-4">
+          <img src="ruta-del-logo/logo.png" alt="Logo de la página" class="w-32 h-auto">
+          
+        </header>
+        <nav class="bg-gray-200 p-4 flex justify-center space-x-4">
+            <a href="evaluator.html" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+              Evaluador
+            </a>
+            <a href="index.html" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+              Productos
+            </a>
+          </nav>
+          
+  <!-- Contenedor principal donde se renderizará el evaluador -->
+  <div id="evaluator-container"></div>
+  <script src="evaluator.js"></script>
+</body>
+</html>
